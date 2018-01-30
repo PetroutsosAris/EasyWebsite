@@ -1,0 +1,111 @@
+body {
+    background-color: skyblue;
+    font-family: 'Lobster', cursive;;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav{
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    background-color: darkmagenta;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover {
+    background-color: chocolate;
+    color: black;
+} 
+
+#first{
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+#second {
+    background-color: #bbb;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: rosybrown;
+    text-align: center;
+    padding-top: 15px;
+    color: crimson;
+}
+
+@media screen and (min-width: 800px){
+    body{
+    background-color:blueviolet;
+    }
+    nav{
+        float: left;
+        width: 20%;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0px;
+        width: 90%;
+    }
+     #main{
+        float: right;
+        width: 80%;
+    }
+    .wrapper{
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    #first{
+        width: 46%;
+        float: left;
+    }
+    #second{
+        width: 46%;
+        float: right;
+    }
+} 
+
+@import "https://fonts.googleapis.com/css?family=Alegreya+Sans|Lobster" rel="stylesheet";
+
+
+
+
+
+
